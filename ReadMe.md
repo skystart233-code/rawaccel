@@ -1,10 +1,17 @@
+> **迁移通知（2026-10-23）**
+>
+> 本项目已迁移至独立仓库 [skystart233-code/LightMove](https://github.com/skystart233-code/LightMove)。
+> 迁移完成后，本仓库保留为**公开存档**，不再接受新的 issue 或 PR；最新源码、文档与发布请前往新仓库。
+> 历史版本 `v0.5.0-preview` 及其二进制仍保留在本仓库 Releases，字节未改变。
+> 新仓库首个迁移版同样保留 `v0.5.0-preview` 版本号，并附带三份完整第三方许可。
+
 <p align="center"><img src="doc/assets/lightmove-icon.png" width="64" alt="LightMove"></p>
 
 <h1 align="center">轻移 LightMove</h1>
 <p align="center"><strong>少挪手腕，稳准到位。</strong></p>
 <p align="center">适用于 Windows 的鼠标手感调节工具</p>
 <p align="center">Windows 10 / 11 · x64 · 0.5.0 社区预览版</p>
-<p align="center"><a href="https://github.com/skystart233-code/rawaccel/releases">下载</a> · <a href="README.zh-CN.md">使用指南</a> · <a href="CHANGELOG.md">更新记录</a> · <a href="https://github.com/skystart233-code/rawaccel/issues">问题反馈</a></p>
+<p align="center"><a href="https://github.com/skystart233-code/LightMove/releases">下载</a> · <a href="README.zh-CN.md">使用指南</a> · <a href="CHANGELOG.md">更新记录</a> · <a href="https://github.com/skystart233-code/LightMove/issues">问题反馈</a></p>
 
 轻移以**减少手腕反复挪动**为设计目标。灵感来自轨迹球，将普通鼠标熟悉的指向操作与小幅动作跨屏的思路相结合：慢速移动时保留精细定位，较快移动时扩大光标行程。
 
@@ -24,7 +31,7 @@
 
 ## 快速开始
 
-1. 从 [Releases](https://github.com/skystart233-code/rawaccel/releases) 下载 Windows x64 EXE，双击运行。
+1. 从 [Releases](https://github.com/skystart233-code/LightMove/releases) 下载 Windows x64 EXE，双击运行。
 2. 首次使用按引导安装官方驱动，保存工作后重启一次。驱动已就绪时可直接使用。
 3. 选择预设，移动鼠标观察实时红点，拖动蓝色控制点调整曲线。
 4. 点击 **应用曲线** 保存并生效。
@@ -108,7 +115,7 @@
 - [更新记录](CHANGELOG.md)：版本功能与变更。
 - [开发指南](docs/DEVELOPMENT.md)：项目结构、构建与测试。
 - [架构说明](docs/ARCHITECTURE.md)：输入、配置及桌面生命周期。
-- [问题反馈](https://github.com/skystart233-code/rawaccel/issues)：提交系统环境、软件版本、复现步骤与截图。
+- [问题反馈](https://github.com/skystart233-code/LightMove/issues)：提交系统环境、软件版本、复现步骤与截图。
 - [参与贡献](CONTRIBUTING.md)：开发约定与贡献方式。
 
 ## 项目来源与许可
@@ -120,3 +127,7 @@
 “线性手感”描述平顺、可控的操作体验。软件通过可自定义的速度曲线调整光标倍率，不改写硬件 DPI；也支持将曲线拉平，提供固定倍率。减少手腕反复移动是设计目标，实际舒适度因设备与使用习惯而异，尚无医疗功效验证。
 
 MIT License · Copyright (c) 2020 a1xd。详见 [LICENSE](LICENSE)。
+
+---
+
+> 迁移后的仓库说明、第三方许可与最新文档见 [skystart233-code/LightMove](https://github.com/skystart233-code/LightMove) 与 [THIRD_PARTY_NOTICES.md](https://github.com/skystart233-code/LightMove/blob/main/THIRD_PARTY_NOTICES.md)。
